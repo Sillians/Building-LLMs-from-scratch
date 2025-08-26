@@ -96,11 +96,12 @@ The general process of creating an LLM includes `pretraining` and `finetuning`. 
 
 ### Finetuning
 
-*   **Definition:** The subsequent, targeted training process where a **pretrained base model** is further trained on a smaller, specialized dataset to adapt it for a specific task or style. This requires significantly less data and compute than pretraining.
-*   
-*   **Analogy:** Taking the broadly knowledgeable student and giving them a intensive course on a specific profession, like law or medicine, so they can perform expertly in that domain.
-*   
-*   **Example:** Taking the base model (e.g., Llama 3) and finetuning it on a dataset of customer service conversations. The resulting model loses some of its general knowledge but becomes highly adept at its new task: understanding customer queries and responding in a helpful, conversational tone.
+- **Definition:** The subsequent, targeted training process where a **pretrained base model** is further trained on a smaller, specialized dataset to adapt it for a specific task or style. This requires significantly less data and compute than pretraining.
+  
+
+- **Analogy:** Taking the broadly knowledgeable student and giving them a intensive course on a specific profession, like law or medicine, so they can perform expertly in that domain.
+
+- **Example:** Taking the base model (e.g., Llama 3) and finetuning it on a dataset of customer service conversations. The resulting model loses some of its general knowledge but becomes highly adept at its new task: understanding customer queries and responding in a helpful, conversational tone.
 
 
 ### Categories of fine-tuning for LLMs
