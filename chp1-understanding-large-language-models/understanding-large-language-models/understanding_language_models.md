@@ -35,7 +35,7 @@ Since LLMs are capable of generating text, LLMs are also often referred to as a 
 
 
 
-![Alt text](../assests/ml-dl-ai.png)
+![Alt text](../../assests/ml-dl-ai.png)
 
 
 
@@ -81,7 +81,7 @@ The general process of creating an LLM includes `pretraining` and `finetuning`. 
 
 
 
-![Alt text](../assests/pretraining-finetuninig.png)
+![Alt text](../../assests/pretraining-finetuninig.png)
 
 
 
@@ -172,7 +172,7 @@ This is a *methodological* category that cuts across the types above.
 
 Most modern LLMs rely on the `transformer architecture`, which is a deep neural network architecture introduced in the 2017 paper `Attention Is All You Need`. To understand LLMs we briefly have to go over the original transformer, which was originally developed for machine translation, translating English texts to German and French. A simplified version of the transformer architecture is depicted in the figure below;
 
-![Alt text](../assests/tf-arch.png)
+![Alt text](../../assests/tf-arch.png)
 
 
 The transformer architecture depicted in the. figure above consists of two submodules, an `encoder` and a `decoder`. The `encoder` module processes the input text and `encodes` it into a series of numerical representations or vectors that capture the contextual information of the input. Then, the `decoder` module takes these encoded vectors and generates the output text from them. In a translation task, for example, the `encoder` would encode the text from the source language into vectors, and the `decoder` would decode these vectors to generate text in the target language. Both the `encoder` and `decoder` consist of many layers connected by a so-called `self-attention mechanism`. 
@@ -230,7 +230,7 @@ Later variants of the transformer architecture, such as the so-called `BERT` (sh
 
 
 
-![Alt text](../assests/zero-shot-few-shot.png)
+![Alt text](../../assests/zero-shot-few-shot.png)
 
 
 
@@ -309,7 +309,7 @@ The general GPT architecture is relatively simple. Essentially, it's just the de
 Architectures such as `GPT-3` are also significantly larger than the original transformer model. For instance, the original transformer repeated the encoder and decoder blocks six times. `GPT-3` has `96` transformer layers and `175 billion` parameters in total.
 
 
-![Alt text](../assests/gpt-3-arch.png)
+![Alt text](../../assests/gpt-3-arch.png)
 
 
 The ability to perform tasks that the model wasn't explicitly trained to perform is called an `"emergent behavior."` This capability isn't explicitly taught during training but emerges as a natural consequence of the model's exposure to vast quantities of multilingual data in diverse contexts. The fact that GPT models can "learn" the translation patterns between languages and perform translation tasks even though they weren't specifically trained for it demonstrates the benefits and capabilities of these large-scale, generative language models. We can perform diverse tasks without using diverse models for each.
@@ -320,7 +320,7 @@ The ability to perform tasks that the model wasn't explicitly trained to perform
 
 ## Building a large language model
 
-![Alt text](../assests/stages-llm.png)
+![Alt text](../../assests/stages-llm.png)
 
 **Stage 1:**
 - Data Preparation and sampling
