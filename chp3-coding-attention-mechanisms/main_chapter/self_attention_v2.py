@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn   
 
-
 class SelfAttention_v2(nn.Module):
     def __init__(self, input_dimension, output_dimension, qkv_bias=False):
         super().__init__()
