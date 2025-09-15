@@ -1,4 +1,4 @@
-torch == 2.0.1
+torch == 2.4.0
 numpy >= 1.25.0, < 2.0
 tiktoken >= 0.5.1
 tensorflow >= 2.18.0
@@ -9,3 +9,7 @@ requests
 tqdm
 transformers>=4.33.2
 matplotlib
+sentencepiece
+tf_keras
+transformers[torch]
+peft
