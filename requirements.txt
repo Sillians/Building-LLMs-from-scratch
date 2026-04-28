@@ -13,3 +13,4 @@ sentencepiece
 tf_keras
 transformers[torch]
 peft
+trl
